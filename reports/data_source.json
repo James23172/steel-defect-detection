@@ -1,0 +1,14 @@
+{
+  "official_homepage": "https://faculty.neu.edu.cn/songkechen/zh_CN/zdylm/263270/list/",
+  "mirror_repository": "https://github.com/siddhartamukherjee/NEU-DET-Steel-Surface-Defect-Detection",
+  "commit": "351bee21b56bbf97a1e1d18262bceb202eb7ef41",
+  "archive_url": "https://codeload.github.com/siddhartamukherjee/NEU-DET-Steel-Surface-Defect-Detection/zip/351bee21b56bbf97a1e1d18262bceb202eb7ef41",
+  "archive_sha256": "e0f360b032342399d18ca14328e9eff905e7ac18cb5b1bc91f1fd20512e267d6",
+  "counts": {
+    "IMAGES": 1770,
+    "Validation_Images": 30,
+    "ANNOTATIONS": 1770,
+    "Validation_Annotations": 30
+  },
+  "status": "Pinned source archive; images/XML only. Mirror code and weights were not used. Downstream preparation is documented separately."
+}

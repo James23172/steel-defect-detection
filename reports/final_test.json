@@ -1,0 +1,33 @@
+{
+  "checkpoint": "day14_runs/baseline_30epochs/weights/best.pt",
+  "selected_using": "validation mAP50-95 before test",
+  "best_csv_epoch": 28,
+  "split": "test",
+  "images": 270,
+  "instances": 633,
+  "imgsz": 320,
+  "batch": 4,
+  "device": "cpu",
+  "metrics_precision": "rounded console output",
+  "metrics": {
+    "precision": 0.679,
+    "recall": 0.696,
+    "mAP50": 0.728,
+    "mAP50-95": 0.427
+  },
+  "per_class_AP50": {
+    "crazing": 0.401,
+    "inclusion": 0.72,
+    "patches": 0.862,
+    "pitted_surface": 0.892,
+    "rolled-in_scale": 0.552,
+    "scratches": 0.943
+  },
+  "speed_ms_per_image": {
+    "preprocess": 0.1,
+    "inference": 13.5,
+    "postprocess": 0.4
+  },
+  "output": "day14_runs/final_test_30epochs",
+  "note": "Evaluation completed. Original JSON write failed on numpy int64; report reconstructed from rounded console output without rerunning test."
+}
